@@ -10,6 +10,16 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -50,4 +60,25 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+  /* margin: 20%;  */
+  padding: 14% 14%;
+}
+
+.features-image {
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+
+.features-image:hover {
+  color: #ff4c68;
+}
+
+.feat {
+  text-align: center;
+  padding: 4.5%;
 }
